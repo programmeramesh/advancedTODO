@@ -1,0 +1,33 @@
+.weather-widget {
+  background: linear-gradient(135deg, #f6f9fc 0%, #ffffff 100%);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.weather-widget:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.weather-icon {
+  color: #4a90e2;
+}
+
+.weather-temp {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.weather-description {
+  color: #7f8c8d;
+  text-transform: capitalize;
+}
+
+.weather-location {
+  font-weight: 500;
+  color: #34495e;
+  margin-bottom: 0.5rem;
+}
