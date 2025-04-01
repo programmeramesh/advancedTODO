@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { WiDaySunny, WiRain, WiCloudy, WiSnow, WiThunderstorm } from 'react-icons/wi';
 import { getWeatherByLocation, getCurrentPosition } from '../services/weatherService';
-import { Typography, Alert } from '@mui/material';
+import { Alert } from '@mui/material';
 
 const WeatherWidget = () => {
   const [weather, setWeather] = useState(null);
